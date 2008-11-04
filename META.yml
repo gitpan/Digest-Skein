@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Digest-Skein
-version:             0.00_01
-abstract:            Perl extension for blah blah blah
+version:             0.00_02
+abstract:            Perl interface to the Skein digest algorithm
 license:             ~
 author:              
     - Radoslaw Zielinski <radek@pld-linux.org
