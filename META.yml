@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Digest-Skein
-version:             0.00_02
+version:             0.00_03
 abstract:            Perl interface to the Skein digest algorithm
 license:             ~
 author:              
