@@ -25,9 +25,8 @@ our %EXPORT_TAGS = (
 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION    = '0.03';
+our $VERSION    = '0.04';
 our $XS_VERSION = $VERSION;
-$VERSION = eval $VERSION;
 
 require XSLoader;
 XSLoader::load( 'Digest::Skein', $XS_VERSION );
@@ -81,8 +80,8 @@ OO interface:
 
 =head1 DESCRIPTION
 
-Digest::Skein implements the Skein digest algorithm, submitted to NIST
-for the SHA-3 competition.
+Digest::Skein implements the Skein digest algorithm (specification v1.2),
+submitted to NIST for the SHA-3 competition.
 
 This module follows the Digest.pm API.  See L<Digest> for more details.
 
