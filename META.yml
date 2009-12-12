@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Digest-Skein
-version:            0.04
+version:            0.05
 abstract:           Perl interface to the Skein digest algorithm
 author:
     - Radoslaw Zielinski <radek@pld-linux.org>
